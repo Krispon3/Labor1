@@ -1,0 +1,12 @@
+n = int(input("количество чисел"))
+x = int(input("начало отрезка"))
+y = int(input("конец отрезка"))
+mas = []
+proiz = 1
+for i in range(n):
+    cou = int(input())
+    if cou in range(x,y):
+        mas.append(cou)
+        proiz *= cou
+
+print(mas, proiz)
